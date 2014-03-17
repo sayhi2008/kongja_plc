@@ -1,0 +1,26 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+   <file alias="coils.png">images/coils.png</file>
+   <file alias="connection_links.png">images/connection_links.png</file>
+   <file alias="connection_links_with_boolean_negation.png">images/connection_links_with_boolean_negation.png</file>
+   <file alias="contact_with_negative_edge_detection.png">images/contact_with_negative_edge_detection.png</file>
+   <file alias="contact_with_positive_edge_detection.png">images/contact_with_positive_edge_detection.png</file>
+   <file alias="contacts.png">images/contacts.png</file>
+   <file alias="direct_coil.png">images/direct_coil.png</file>
+   <file alias="direct_contact.png">images/direct_contact.png</file>
+   <file alias="function_blocks.png">images/function_blocks.png</file>
+   <file alias="jumps.png">images/jumps.png</file>
+   <file alias="labels.png">images/labels.png</file>
+   <file alias="left_power_rail.png">images/left_power_rail.png</file>
+   <file alias="negated_coil.png">images/negated_coil.png</file>
+   <file alias="negated_contact.png">images/negated_contact.png</file>
+   <file alias="reset_action_coil.png">images/reset_action_coil.png</file>
+   <file alias="return_symbol.png">images/return_symbol.png</file>
+   <file alias="right_power_rail.png">images/right_power_rail.png</file>
+   <file alias="set_action_coil.png">images/set_action_coil.png</file>
+   <file alias="user_defined_corners.png">images/user_defined_corners.png</file>
+   <file alias="variables.png">images/variables.png</file>
+   <file alias="vertical_or.png">images/vertical_or.png</file>
+   <file alias="select.png">images/select.png</file>
+</qresource>
+</RCC>
