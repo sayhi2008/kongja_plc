@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 import os
 import platform
 from PyQt4.QtCore import *
@@ -18,13 +17,18 @@ class LadderEditorWindow(QMainWindow):
       self.createMenus()
       self.createToolbars()
 
-      self.scene = LadderDiagramScene()
+      self.view = QGraphicsView()
+      self.view.setDragMode(QGraphicsView.RubberBandDrag)
+      self.view.setRenderHint(QPainter.Antialiasing)
+      self.view.setRenderHint(QPainter.TextAntialiasing)
+
+      self.scene = LadderDiagramScene(self.view)
       self.scene.setSceneRect(QRectF(0, 0, 5000, 5000))
-
-      self.view = QGraphicsView(self.scene)
+      
       self.view.setScene(self.scene)
+      
+      self.scene.addText("Hello!");
 
-      self.widget = self.view
       self.setCentralWidget(self.view)
       self.setWindowTitle("Ladder Diagram Editor")
 
